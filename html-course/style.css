@@ -1,0 +1,62 @@
+/*
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  background-color: orange;
+}
+h2 {
+  color: blue;
+}
+#not-like-other-paragraphs {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 1px;
+}
+.red-text {
+  color: red;
+  background-color: pink;
+}
+*/
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(./bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(2, 2, 101);
+  letter-spacing: 0.3px;
+}
+h2,
+h3 {
+  font-family: "Archivo Black", sans-serif;
+}
+#article-about {
+  background-color: pink;
+  padding: 25px;
+  margin: 25px;
+  width: 300px;
+}
+h2 {
+  font-family: "Betania Patmos In GDL", cursive;
+}
+/*
+importe 'roboto' from google fonts 
+apply to the whole page
+change bg color of h1, h2 and colors
+eliminate the underline des liens et change leur couler
+*/
