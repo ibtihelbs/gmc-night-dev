@@ -1,0 +1,64 @@
+/*
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "inter";
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+body {
+  font-family: "inter";
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+#social-media-card {
+  background-color: hsl(0, 0%, 20%);
+  max-width: 300px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 15px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+img {
+  height: 100px;
+  border-radius: 50%;
+}
+h3 {
+  color: hsl(75, 94%, 57%);
+}
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+h1,
+h3,
+p {
+  margin-bottom: 8px;
+}
+li {
+  margin-bottom: 4px;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 15px;
+}

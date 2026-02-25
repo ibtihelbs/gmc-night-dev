@@ -1,0 +1,12 @@
+body {
+  font-family: "roboto";
+}
+h1 {
+  background-color: lightblue;
+  color: rgb(100, 22, 8);
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgb(93, 131, 55);
+}
