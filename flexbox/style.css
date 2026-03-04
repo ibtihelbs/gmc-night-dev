@@ -1,0 +1,14 @@
+#container {
+  background-color: lightblue;
+  padding: 16px;
+  justify-content: space-between;
+  height: 500px;
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.child {
+  padding: 8px;
+  background-color: pink;
+}
