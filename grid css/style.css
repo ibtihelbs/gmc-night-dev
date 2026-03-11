@@ -1,0 +1,17 @@
+#grid-container {
+  background-color: lightblue;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.child {
+  background-color: palegoldenrod;
+  padding: 8px;
+}
+.child-6,
+.child-1,
+.child-8 {
+  background-color: palevioletred;
+  grid-column: span 2;
+}
