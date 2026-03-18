@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "DM sans";
+  src: url(./assets/fonts/DMSans-VariableFont.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: "DM sans";
+}
+body {
+  padding: 16px 23px;
+}
+div {
+  padding: 16px;
+  border-radius: 8px;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.flex-row {
+  display: flex;
+  gap: 16px;
+}
+div:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1.5;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+div:nth-child(3) {
+  grid-row: span 2.5;
+}
+div:nth-child(1),
+div:nth-child(4) {
+  grid-row: span 1.75;
+}
+div:nth-child(8) {
+  grid-column: span 2;
+  color: white;
+}
+div:nth-child(8) img {
+  width: 50%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+}
+/*
+
+- Purple 100: hsl(254, 88%, 90%)
+- Purple 500: hsl(256, 67%, 59%)
+
+- Yellow 100: hsl(31, 66%, 93%)
+- Yellow 500: hsl(39, 100%, 71%)
+*/
+.yellow-bg-light {
+  background-color: hsl(31, 66%, 93%);
+}
+.yellow-bg {
+  background-color: hsl(39, 100%, 71%);
+}
+.purple-bg {
+  background-color: hsl(256, 67%, 59%);
+}
+.purple-bg-light {
+  background-color: hsl(254, 88%, 90%);
+}
+h1 {
+  font-size: 52px;
+}
+span:nth-child(1) {
+  color: hsl(256, 67%, 59%);
+  font-style: italic;
+}
+span:nth-child(1) {
+  color: hsl(39, 100%, 71%);
+  font-style: italic;
+}
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .div:nth-child(8),
+  .div:nth-child(2) {
+    grid-column: span 1;
+  }
+  .flex-row {
+    flex-direction: column;
+  }
+  div {
+    width: 100%;
+  }
+}
