@@ -1,0 +1,19 @@
+#card {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30% auto;
+  border-radius: 15px;
+}
+button {
+  border: none;
+  padding: 16px 32px;
+  border-radius: 999px;
+  background-color: pink;
+}
+.orange {
+  background-color: orange;
+}
