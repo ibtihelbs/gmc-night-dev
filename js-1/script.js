@@ -59,3 +59,14 @@ function eachStr(arr) {
 }
 
 console.log(eachStr(students));
+function potatoes(str) {
+  let len = str.length;
+
+  let noPotatos = str.replaceAll("potato", "").length;
+  return (len - noPotatos) / 6;
+}
+
+console.log(potatoes("potatopotato"));
+console.log(potatoes("potatopotatosbdhbjwdbpotatoooojopotato"));
+console.log(potatoes(""));
+console.log(potatoes("hduhwhfupotato"));

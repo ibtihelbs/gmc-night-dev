@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to do app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Enter a new task" />
+      <input type="checkbox" id="important" />
+      <button type="submit">Add Task</button>
+    </form>
+    <div>
+      <h1>tasks list</h1>
+      <ul>
+        <li class="urgent">
+          <span>eat breakfast</span>
+          <button class="edit"><img src="./img/edit.svg" alt="edit" /></button>
+          <button class="delete">
+            <img src="./img/trash.svg" alt="delete" />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
