@@ -8,22 +8,40 @@
   </head>
   <body>
     <form>
-      <input type="text" placeholder="Enter a new task" />
-      <input type="checkbox" id="important" />
+      <input type="text" id="task-input" placeholder="Enter a new task" />
+
+      <label class="checkbox">
+        <input type="checkbox" id="important" />
+        Important
+      </label>
+
       <button type="submit">Add Task</button>
     </form>
-    <div>
-      <h1>tasks list</h1>
+
+    <div class="container">
+      <h1>Tasks List</h1>
+
       <ul>
         <li class="urgent">
           <span>eat breakfast</span>
-          <button class="edit"><img src="./img/edit.svg" alt="edit" /></button>
-          <button class="delete">
-            <img src="./img/trash.svg" alt="delete" />
-          </button>
+
+          <div class="actions">
+            <button class="edit">
+              <img src="./img/edit.svg" onclick="editTask(event)" alt="edit" />
+            </button>
+
+            <button class="delete">
+              <img
+                src="./img/trash.svg"
+                onclick="deleteTask(event)"
+                alt="delete"
+              />
+            </button>
+          </div>
         </li>
       </ul>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
